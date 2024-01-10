@@ -32,24 +32,24 @@ cp .env.example .env
 Open the .env file in a text editor and make the necessary changes.
 ## Step 3: Generate Application Key
 
-Run the following command to generate the application key:
+To generate the application you can use a key generate command:
 
 ```bash
 php artisan key:generate
 ```
 ## Step 4: Database Migration and Seeding
 
-After the database information is set in the .env file and the application key is generated. You can now start to migrate using the following command.
+After the database information is set in the .env file and the application key is generated. You can now start to migrate using the following commands.
 ```bash
 php artisan migrate
 ```
-after migrating use the following command.
+
 ```bash
 php artisan db:seed
 ```
 ## Step 5: Run the Development Server
 
-Now that everything is set up you should be able to start the server. To do this you can use the following command
+Now that everything is set up you should be able to start the server. To do this you can just use one easy serve command.
 
 ```bash
 php artisan serve
