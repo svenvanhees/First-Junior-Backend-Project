@@ -1,6 +1,7 @@
 # User Manage system
 
-In this markdown you will find out how to run and use this simple user management system made with laravel and Filament.
+In this markdown you will find out how to run and use this simple user management system made with laravel and Filament show here under.
+![project](/ApplicationExample.PNG)
 
 ## Prerequisites
 
@@ -24,7 +25,7 @@ composer install
 
 ## 2. Create Environment File:
 
-Duplicate the `.env.example` file and rename it to `.env`. Update the necessary configurations such as database connection details and any other environment-specific settings.
+Duplicate the `.env.example` file and rename it to `.env`. Update the necessary configurations, most importantly the database configuration. 
 
 ```bash
 cp .env.example .env
@@ -39,7 +40,7 @@ php artisan key:generate
 ```
 ## Step 4: Database Migration and Seeding
 
-After the database information is set in the .env file and the application key is generated. You can now start to migrate using the following commands.
+After the database information is set in the .env file and the application key is generated. You can now start to migrate using the following commands. Make sure to have your database running.
 ```bash
 php artisan migrate
 ```
