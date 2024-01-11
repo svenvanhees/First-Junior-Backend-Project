@@ -9,5 +9,6 @@ class NewsArticle extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['title', 'content', 'other_attribute'];
+    protected $fillable = ['title', 'content', 'published_at'];
+    public $timestamps = false;
 }
